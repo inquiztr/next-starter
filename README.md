@@ -1,3 +1,8 @@
+This is a standard NextJS starter repo.
+I have added Typescript, ESLint, Prettier and a couple npm packages I plan to use. (eg i18n for translations).
+
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/zeit/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
