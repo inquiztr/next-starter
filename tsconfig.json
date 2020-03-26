@@ -1,0 +1,53 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "target": "es5",
+    "module": "ESNext",
+    "lib": [
+      "dom",
+      "es2015"
+    ],
+    "allowSyntheticDefaultImports": true,
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "removeComments": false,
+    "allowJs": true,
+    "noEmit": true,
+    "noEmitHelpers": true,
+    "importHelpers": true,
+    "strictNullChecks": false,
+    "pretty": true,
+    "jsx": "preserve",
+    "noImplicitAny": false,
+    "baseUrl": ".",
+    "skipLibCheck": true,
+    "paths": {
+      "react": [
+        "./node_modules/@types/react"
+      ]
+    },
+    "typeRoots": [
+      "./node_modules/@types"
+    ],
+    "types": [],
+    "strict": false,
+    "forceConsistentCasingInFileNames": true,
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true
+  },
+  "include": [
+    "**/*.ts",
+    "**/*.tsx",
+    "typings.d.ts"
+  ],
+  "outDir": "./compiled",
+  "exclude": [
+    "dist",
+    "node_modules",
+    "../node_modules",
+    "**/*.spec.ts"
+  ]
+}

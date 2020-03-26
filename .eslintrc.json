@@ -1,0 +1,41 @@
+{
+    "root": true,
+    "parser": "@typescript-eslint/parser",
+    "extends": [
+        "eslint:recommended",
+        "plugin:@typescript-eslint/eslint-recommended",
+        "plugin:@typescript-eslint/recommended",
+        "plugin:react/recommended",
+        "plugin:prettier/recommended",
+        "plugin:import/typescript",
+        "prettier",
+        "prettier/@typescript-eslint",
+        "prettier/react"
+    ],
+    "parserOptions": {
+        //"project": "c:/projects/viewly/viewly/tsconfig.json",
+
+        "ecmaVersion": 2018,
+        "sourceType": "module",
+        "ecmaFeatures": {
+            "jsx": true
+        },
+        "jsx": true,
+        "useJSXTextNode": true
+    },
+    "rules": {
+        "@typescript-eslint/explicit-member-accessibility": 0,
+        "@typescript-eslint/explicit-function-return-type": 0,
+        "@typescript-eslint/interface-name-prefix": 0,
+        "no-empty-interface": 0,
+        "no-explicit-any": 0,
+        "no-angle-bracket-type-assertion": 0,
+        "prettier/prettier": "error"
+    },
+    "plugins": ["@typescript-eslint", "react-hooks", "prettier", "react", "import"],
+    "settings": {
+        "react": {
+            "version": "detect"
+        }
+    }
+}
