@@ -1,11 +1,11 @@
 ## Standard NextJS starter repo. ##
 
 Whats different is this also has:
--ESLint -for enforcing coding standards
--PRETTIER  -for enforcing auto formatting
--Typescript  - for type checking
--Some sample components setup
--i18Next npm package for page translation 
+1.ESLint -for enforcing coding standards
+2.PRETTIER  -for enforcing auto formatting
+3.Typescript  - for type checking
+4.Some sample components setup
+5.i18Next npm package for page translation 
 
 
 
