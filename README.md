@@ -1,11 +1,11 @@
 ## Standard NextJS starter repo. ##
 
 Whats different is this also has:
-1.ESLint -for enforcing coding standards
-2.PRETTIER  -for enforcing auto formatting
-3.Typescript  - for type checking
-4.Some sample components setup
-5.i18Next npm package for page translation 
+1. ESLint -for enforcing coding standards
+2. PRETTIER  -for enforcing auto formatting
+3. Typescript  - for type checking
+4. Some sample components setup
+5. i18Next npm package for page translation 
 
 
 
@@ -13,7 +13,7 @@ Whats different is this also has:
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/zeit/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+#### Getting Started
 
 First, run the development server:
 
