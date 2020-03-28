@@ -1,5 +1,13 @@
-This is a standard NextJS starter repo.
-I have added Typescript, ESLint, Prettier and a couple npm packages I plan to use. (eg i18n for translations).
+##This is a standard NextJS starter repo.##
+
+Whats different is this also has:
+-ESLint -for enforcing coding standards
+-PRETTIER  -for enforcing auto formatting
+-Typescript  - for type checking
+-Some sample components setup
+-i18Next npm package for page translation 
+
+
 
 
 
