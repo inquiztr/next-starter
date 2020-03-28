@@ -1,4 +1,4 @@
-##This is a standard NextJS starter repo.##
+## This is a standard NextJS starter repo. ##
 
 Whats different is this also has:
 -ESLint -for enforcing coding standards
